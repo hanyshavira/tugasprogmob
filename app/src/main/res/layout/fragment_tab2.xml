@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e2f44"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Pendiri SM Entertaiment"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imga"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/a" />
+    <TextView
+        android:id="@+id/detaila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AlbumName"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text= "Lee Soo-man (lahir 18 Juni 1952; umur 68 tahun) adalah produser rekaman dan eksekutif asal Korea Selatan yang dikenal luas sebagai pendiri SM Entertainment Co.,Ltd."
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>
